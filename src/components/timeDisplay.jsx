@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './timeDisplay.css'
 function TimeDisplay({ alarmTime }) {
   return (
     <div className="TimeDisplay">

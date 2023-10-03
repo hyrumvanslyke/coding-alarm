@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './codingQuestions.css'
 function CodingQuestions() {
   const [answeredQuestions, setAnsweredQuestions] = useState(0);
   const [questions, setQuestions] = useState([

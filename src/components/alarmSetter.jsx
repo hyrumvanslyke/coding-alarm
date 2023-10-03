@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './alarmSetter.css'
 function AlarmSetter({ onSetAlarm }) {
   const [selectedTime, setSelectedTime] = useState(new Date());
 

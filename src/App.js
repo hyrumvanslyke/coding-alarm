@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import timeDisplay from './components/timeDisplay';
-import alarmSetter from './components/alarmSetter';
-import codingQuestions from './components/codingQuestions';
+import TimeDisplay from './components/timeDisplay';
+import AlarmSetter from './components/alarmSetter';
+import CodingQuestions from './components/codingQuestions';
 
 function App() {
   // State to manage alarm time and questions
@@ -19,9 +19,9 @@ function App() {
   return (
     <div className="App">
       <h1>Alarm Clock App</h1>
-      <timeDisplay alarmTime={alarmTime} />
-      <alarmSetter onSetAlarm={handleSetAlarm} />
-      {showQuestions && <codingQuestions />}
+      <TimeDisplay alarmTime={alarmTime} />
+      <AlarmSetter onSetAlarm={handleSetAlarm} />
+      {showQuestions && <CodingQuestions />}
     </div>
   );
 }

@@ -1,0 +1,39 @@
+
+
+.CodingQuestions {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .CodingQuestions h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .CodingQuestions button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .CodingQuestions button:hover {
+    background-color: #0056b3;
+  }
+  
